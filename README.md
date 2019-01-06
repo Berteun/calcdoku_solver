@@ -11,13 +11,13 @@ have a hint (2-), which means that if you substract the smaller from the larger
 one you should end up with 2.
 
 
-        +-+-+---+
+	+-+-+---+
 	|.|.|. .|
 	| | +---+
 	|.|.|. .|
 	+-+ | |-|
 	|.|.|.|.|
-        | +-+-+ |
+	| +-+-+ |
 	|. .|. .|
 	+-------+
 

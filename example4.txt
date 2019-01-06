@@ -1,0 +1,14 @@
+ABBC
+DEFC
+DEFG
+HHIG
+
+A = +2
+B = +4
+C = +6
+D = +4
+E = +6
+F = +5
+G = +4
+H = +7
+I = +2

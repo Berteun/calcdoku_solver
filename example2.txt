@@ -1,0 +1,14 @@
+ADDHH
+AEEHH
+AAEEG
+AACEG
+BBCFF
+
+A = *80
+B = *15
+C = +3
+D = *12
+E = +21
+F = /4
+G = -2
+H = +8

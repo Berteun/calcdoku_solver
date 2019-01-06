@@ -134,7 +134,7 @@ def run(filename):
 
 if __name__ == '__main__':
     import argparse
-    parser = argparse.ArgumentParser(description='Solve some soduku')
-    parser.add_argument('input', metavar='INPUT', help='calcdoku input file format')
+    parser = argparse.ArgumentParser(description='Solve some calcudoku')
+    parser.add_argument('input', metavar='INPUT', help='calcudoku input file format')
     args = parser.parse_args()
     run(args.input)

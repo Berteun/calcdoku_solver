@@ -77,16 +77,16 @@ def parse_constraints(board,constraints):
     return constraint_list
 
 def is_commutative(op):
-    return op in (operator.sub, operator.truediv)
+    return op not in (operator.sub, operator.truediv)
 
 def add_special_constraints(solver, board, grid, constraints):
     for Char, op, outcome in constraints:
         coords = board[Char]
         
         if is_commutative(op):
-            perms = itertools.permutations(coords)
-        else:
             perms = [coords]
+        else:
+            perms = itertools.permutations(coords)
 
         constraints = []
         for p in perms:

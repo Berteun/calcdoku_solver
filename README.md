@@ -45,6 +45,9 @@ Example Input
 	E = +7
 	F = +9
 
+Note that if you have single cells with a given value, you can treat them as a single cell that
+adds up to that value. See `example4.txt`.
+
 Example output
 --------------
 
